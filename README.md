@@ -1,6 +1,6 @@
 # Contact Management System (CLI Application)
 
-This is a simple **Command-Line Interface (CLI)** application for managing a contact database. Built using Python and SQLite, it allows users to perform CRUD operations (Create, Read, Update, Delete) on contacts efficiently. The application includes robust validation and features a user-friendly command-line interface for seamless interaction.
+This is a simple **Command-Line Interface (CLI)** application for managing a contact database. Built using Python, SQLite, Regular Expressions, argparse, and OOP, it allows users to perform CRUD operations (Create, Read, Update, Delete) on contacts efficiently. The application includes robust validation and features a user-friendly command-line interface for seamless interaction.
 
 ---
 

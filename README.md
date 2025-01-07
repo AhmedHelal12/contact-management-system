@@ -43,7 +43,7 @@ Run the application with the desired command and arguments. Below are examples o
 
 ```bash
 python app.py add "John Doe" --number 1234567890 --email john@example.com --category Friend
-
+```
 ### View all contacts
 ```bash
 python app.py view --all

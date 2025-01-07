@@ -47,27 +47,27 @@ python app.py add "John Doe" --number 1234567890 --email john@example.com --cate
 ### View all contacts
 ```bash
 python app.py view --all
-
+```
 ### View Contacts by Category
 ```bash
 python3 app.py view -cat family
-
+```
 ### Search by name
 ```bash
 python app.py search Ahmed
-
+```
 ### Update contact
 ```bash
 python app.py edit 1 "John Smith" --number 0987654321 --email johnsmith@example.com --category Work
-
+```
 ### Delete a contact
 ```bash
 python app.py delete --cont 1
-
+```
 ### Reset the database
 ```bash
 python app.py reset --confirm
-
+```
 
 
 

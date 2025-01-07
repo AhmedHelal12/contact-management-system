@@ -34,4 +34,44 @@ This is a simple **Command-Line Interface (CLI)** application for managing a con
 1. Clone this repository:
    ```bash
    git clone https://github.com/AhmedHelal12/contact-management-system.git
+
+## Usage
+
+Run the application with the desired command and arguments. Below are examples of how to use the available commands:
+
+### Add a Contact
+
+```bash
+python app.py add "John Doe" --number 1234567890 --email john@example.com --category Friend
+
+### View all contacts
+```bash
+python app.py view --all
+
+### View Contacts by Category
+```bash
+python3 app.py view -cat family
+
+### Search by name
+```bash
+python app.py search Ahmed
+
+### Update contact
+```bash
+python app.py edit 1 "John Smith" --number 0987654321 --email johnsmith@example.com --category Work
+
+### Delete a contact
+```bash
+python app.py delete --cont 1
+
+### Reset the database
+```bash
+python app.py reset --confirm
+
+
+
+
+
+
+
    
